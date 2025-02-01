@@ -7,4 +7,5 @@ export default defineConfig({
   optimizeDeps: {
     exclude: ['lucide-react'],
   },
+  base: '/newProfle/',  // Add this line to set the correct base path for GitHub Pages
 });
