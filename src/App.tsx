@@ -11,7 +11,7 @@ function App() {
       {/* Navigation */}
       <nav className="fixed w-full bg-[#0a192f]/90 backdrop-blur-sm z-50 px-6 py-4">
         <div className="max-w-6xl mx-auto flex justify-between items-center">
-          <div className="text-[#64ffda] text-3xl font-bold">S</div>
+          <div className="text-[#64ffda] text-3xl font-bold">T</div>
           <div className="flex items-center gap-8">
             <a href="#about" className="nav-link"><span className="nav-number">01.</span>About</a>
             <a href="#experience" className="nav-link"><span className="nav-number">02.</span>Experience</a>
@@ -28,16 +28,14 @@ function App() {
       <section className="min-h-screen flex items-center px-6 pt-20">
         <div className="max-w-6xl mx-auto">
           <h1 className="text-[#64ffda] font-mono mb-5">Hi, my name is</h1>
-          <h2 className="text-[#ccd6f6] text-6xl font-bold mb-4">SAI ROHITH VENNU.</h2>
-          <h3 className="text-[#8892b0] text-5xl font-bold mb-6">I build cloud infrastructure.</h3>
+          <h2 className="text-[#ccd6f6] text-6xl font-bold mb-4">TARUN RAMIREDDY.</h2>
+          <h3 className="text-[#8892b0] text-5xl font-bold mb-6">I build scalable web applications and systems.</h3>
           <p className="max-w-2xl text-xl mb-12">
-            I'm a DevOps Engineer & IT Support Professional specializing in building and maintaining 
-            cloud infrastructure and providing technical solutions. Currently, I'm focused on building 
-            accessible, human-centered systems at{' '}
+            I'm a Full-Stack Developer specializing in backend technologies and system integration. Currently, I'm working on building robust systems and cloud-based applications at{' '}
             <button 
-              onClick={() => openGoogleSearch("Bectran Inc Chicago")}
+              onClick={() => openGoogleSearch("University of Cincinnati")}
               className="text-[#64ffda] hover:underline">
-              Bectran, Inc
+              University of Cincinnati
             </button>.
           </p>
           <a href="#work" className="button-outline text-lg">
@@ -55,8 +53,7 @@ function App() {
           <div className="grid md:grid-cols-2 gap-12">
             <div className="space-y-4">
               <p>
-                Hello! I'm Sai, a DevOps Engineer and IT Support Professional with expertise in AWS cloud 
-                infrastructure and system administration. My journey in tech started at{' '}
+                Hello! I'm Tarun, a Full-Stack Developer with a focus on backend technologies and cloud systems. My journey in tech started at{' '}
                 <button 
                   onClick={() => openGoogleSearch("Tudi Ram Reddy Institute of Technology & Science")}
                   className="text-[#64ffda] hover:underline">
@@ -69,33 +66,27 @@ function App() {
                   onClick={() => openGoogleSearch("University of Cincinnati")}
                   className="text-[#64ffda] hover:underline">
                   University of Cincinnati
-                </button>{' '}
-                while working at{' '}
-                <button 
-                  onClick={() => openGoogleSearch("Bectran Inc Chicago")}
-                  className="text-[#64ffda] hover:underline">
-                  Bectran, Inc
-                </button>, where I manage cloud infrastructure and provide IT support.
+                </button>, while working on full-stack web applications and system architecture.
               </p>
               <p>Here are a few technologies I've been working with recently:</p>
               <ul className="grid grid-cols-2 gap-2 text-sm">
                 <li className="flex items-center gap-2">
-                  <span className="text-[#64ffda]">▹</span> AWS Cloud Services
+                  <span className="text-[#64ffda]">▹</span> JavaScript/Node.js
                 </li>
                 <li className="flex items-center gap-2">
-                  <span className="text-[#64ffda]">▹</span> Linux/Unix
+                  <span className="text-[#64ffda]">▹</span> React
                 </li>
                 <li className="flex items-center gap-2">
-                  <span className="text-[#64ffda]">▹</span> Docker/Kubernetes
+                  <span className="text-[#64ffda]">▹</span> Java
                 </li>
                 <li className="flex items-center gap-2">
-                  <span className="text-[#64ffda]">▹</span> Jenkins
+                  <span className="text-[#64ffda]">▹</span> SQL/NoSQL Databases
                 </li>
                 <li className="flex items-center gap-2">
-                  <span className="text-[#64ffda]">▹</span> Azure Active Directory
+                  <span className="text-[#64ffda]">▹</span> C#
                 </li>
                 <li className="flex items-center gap-2">
-                  <span className="text-[#64ffda]">▹</span> Network Infrastructure
+                  <span className="text-[#64ffda]">▹</span> DevOps (CI/CD)
                 </li>
               </ul>
             </div>
@@ -122,28 +113,27 @@ function App() {
           </h2>
           <div className="bg-[#0a192f] p-6 rounded-lg shadow-xl">
             <h3 className="text-[#ccd6f6] text-xl font-semibold mb-2">
-              Associate DevOps Engineer & IT Support
+              Automation Engineer
             </h3>
             <p className="text-[#64ffda] mb-4">
               <button 
-                onClick={() => openGoogleSearch("Bectran Inc Chicago")}
+                onClick={() => openGoogleSearch("Cognizant")}
                 className="hover:underline">
-                Bectran, Inc
-              </button>{' '}
-              · Chicago, Illinois
+                Cognizant
+              </button>{' '}· Hyderabad, India
             </p>
             <ul className="space-y-4">
               <li className="flex items-start gap-2">
                 <span className="text-[#64ffda] mt-1">▹</span>
-                <span>Managed AWS cloud infrastructure including EC2, S3, RDS, VPC, and IAM</span>
+                <span>Automated test scripts for web applications using Selenium and Java</span>
               </li>
               <li className="flex items-start gap-2">
                 <span className="text-[#64ffda] mt-1">▹</span>
-                <span>Implemented security protocols and managed company-wide IT inventory</span>
+                <span>Implemented continuous integration and deployment using Jenkins</span>
               </li>
               <li className="flex items-start gap-2">
                 <span className="text-[#64ffda] mt-1">▹</span>
-                <span>Provided technical support and maintained system security</span>
+                <span>Worked with MySQL databases to optimize and maintain data storage</span>
               </li>
             </ul>
           </div>
@@ -159,7 +149,7 @@ function App() {
           <div className="bg-[#112240] p-6 rounded-lg shadow-xl">
             <div className="flex justify-between items-start mb-4">
               <h3 className="text-[#ccd6f6] text-xl font-semibold">
-                Employee Information Database
+                Bearcat Guardian Application
               </h3>
               <div className="flex gap-4">
                 <a href="#" className="text-[#64ffda] hover:text-[#64ffda]/80">
@@ -171,16 +161,14 @@ function App() {
               </div>
             </div>
             <p className="mb-4">
-              A comprehensive web application for managing employee records using AWS infrastructure, 
-              featuring secure data storage and efficient retrieval systems.
+              A web-based application for safety and security, developed as part of my research project for the University of Cincinnati.
             </p>
             <div className="flex flex-wrap gap-3 text-sm text-[#64ffda]">
-              <span>AWS VPC</span>
-              <span>EC2</span>
-              <span>S3</span>
-              <span>RDS</span>
-              <span>Jenkins</span>
-              <span>Datadog</span>
+              <span>React</span>
+              <span>Node.js</span>
+              <span>MongoDB</span>
+              <span>Express</span>
+              <span>JavaScript</span>
             </div>
           </div>
         </div>
@@ -197,7 +185,7 @@ function App() {
             I'm currently looking for new opportunities. Whether you have a question or just want to say hi, 
             I'll try my best to get back to you!
           </p>
-          <a href="mailto:vennusairohith@gmail.com" className="button-outline text-lg">
+          <a href="mailto:ramireddytarun@gmail.com" className="button-outline text-lg">
             Say Hello <Mail className="w-5 h-5" />
           </a>
         </div>
@@ -206,10 +194,10 @@ function App() {
       {/* Footer */}
       <footer className="py-6 text-center">
         <div className="flex justify-center gap-6 mb-4">
-          <a href="mailto:vennusairohith@gmail.com" className="text-[#64ffda] hover:text-[#64ffda]/80">
+          <a href="mailto:ramireddytarun@gmail.com" className="text-[#64ffda] hover:text-[#64ffda]/80">
             <Mail className="w-6 h-6" />
           </a>
-          <a href="https://www.linkedin.com/in/sai-rohith-vennu-437aaa22b/" 
+          <a href="https://www.linkedin.com/in/tarun-ramireddy" 
              target="_blank" 
              rel="noopener noreferrer" 
              className="text-[#64ffda] hover:text-[#64ffda]/80">
