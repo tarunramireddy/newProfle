@@ -1,0 +1,34 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background-color: #0a192f;
+  color: #8892b0;
+}
+
+.nav-link {
+  @apply text-[#64ffda] hover:text-[#64ffda]/80 transition-colors duration-200;
+}
+
+.nav-number {
+  @apply text-[#64ffda] mr-1 font-mono text-sm;
+}
+
+.button-outline {
+  @apply border border-[#64ffda] text-[#64ffda] px-4 py-2 rounded hover:bg-[#64ffda]/10 
+         transition-all duration-200 inline-flex items-center gap-2;
+}
+
+.section-heading {
+  @apply text-[#ccd6f6] text-2xl font-semibold mb-4 flex items-center gap-2;
+}
+
+.section-heading::after {
+  content: "";
+  @apply h-px bg-[#233554] flex-grow ml-4;
+}
+
+.heading-number {
+  @apply text-[#64ffda] font-mono text-xl;
+}
