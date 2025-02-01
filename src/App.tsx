@@ -17,7 +17,7 @@ function App() {
             <a href="#experience" className="nav-link"><span className="nav-number">02.</span>Experience</a>
             <a href="#work" className="nav-link"><span className="nav-number">03.</span>Work</a>
             <a href="#contact" className="nav-link"><span className="nav-number">04.</span>Contact</a>
-            <a href="/resume.pdf" className="button-outline">
+            <a href="/ResumeTarunRamireddy.pdf" className="button-outline">
               Resume <FileText className="w-4 h-4" />
             </a>
           </div>
@@ -55,10 +55,10 @@ function App() {
               <p>
                 Hello! I'm Tarun, a Full-Stack Developer with a focus on backend technologies and cloud systems. My journey in tech started at{' '}
                 <button 
-                  onClick={() => openGoogleSearch("Tudi Ram Reddy Institute of Technology & Science")}
+                  onClick={() => openGoogleSearch("Jawaharlal Nehru Technological University Kakinada")}
                   className="text-[#64ffda] hover:underline">
-                  Tudi Ram Reddy Institute of Technology & Science
-                </button>, where I earned my Bachelor's in Information Technology.
+                  Jawaharlal Nehru Technological University Kakinada
+                </button>, where I earned my Bachelors in Engineering
               </p>
               <p>
                 Currently, I'm pursuing my Master's in Information Technology at the{' '}
@@ -66,7 +66,7 @@ function App() {
                   onClick={() => openGoogleSearch("University of Cincinnati")}
                   className="text-[#64ffda] hover:underline">
                   University of Cincinnati
-                </button>, while working on full-stack web applications and system architecture.
+                </button>, while working on Web applications and system architecture.
               </p>
               <p>Here are a few technologies I've been working with recently:</p>
               <ul className="grid grid-cols-2 gap-2 text-sm">
