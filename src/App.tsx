@@ -17,8 +17,11 @@ function App() {
             <a href="#experience" className="nav-link"><span className="nav-number">02.</span>Experience</a>
             <a href="#work" className="nav-link"><span className="nav-number">03.</span>Work</a>
             <a href="#contact" className="nav-link"><span className="nav-number">04.</span>Contact</a>
-            <a href="newProfle/docs/ResumeTarunRamireddy.html" className="button-outline" target='_blank'>
-            Resume
+            <a href="/newProfle/ResumeTarunRamireddy.pdf" 
+              className="button-outline" 
+              target="_blank" 
+              download>
+              Resume
             </a>
           </div>
         </div>
